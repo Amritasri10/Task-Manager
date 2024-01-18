@@ -35,25 +35,22 @@
 
 ## API Endpoints
   ### User
- - **Register User:** . **Endpoint**: POST /api/register
- - **Login User:**
-      .**Endpoint:** POST /api/login
+   - **Register User:**
+   - **Endpoint**: POST /api/register
+   - **Login User:**
+   - **Endpoint:** POST /api/login
    
  ### User
--**Create Task:**
--**Endpoint:** POST /api/tasks
-
--**Get All Tasks:**
--**Endpoint**: GET /api/tasks
-
--**Get Task by ID:**
--**Endpoint**: GET /api/tasks/:taskId
-
--**Update Task:**
--**Endpoint**: PUT /api/tasks/:taskId
-
--**Delete Task:**
--**Endpoint**: DELETE /api/tasks/:taskId
+    - **Create Task:**
+    - **Endpoint:** POST /api/tasks
+    - **Get All Tasks:**
+    - **Endpoint**: GET /api/tasks
+    - **Get Task by ID:**
+    - **Endpoint**: GET /api/tasks/:taskId
+    - **Update Task:**
+    - **Endpoint**: PUT /api/tasks/:taskId
+    - **Delete Task:**
+    - **Endpoint**: DELETE /api/tasks/:taskId
 
 ## Authentication
 The API uses JSON Web Tokens (JWT) for user authentication. Upon successful login, the server issues a token that should be included in the headers of subsequent requests:
