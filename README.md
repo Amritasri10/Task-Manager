@@ -15,12 +15,12 @@
 ## Prerequisites
 
    - [Node.js](https://nodejs.org/en)
-    . [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
-     -[nodemon](https://www.npmjs.com/package//nodemon)
-     -[express](https://www.npmjs.com/package/express)
-     -[mongoose](https://www.npmjs.com/package/mongoose)
-     -[jwt](https://www.npmjs.com/package/jwt)
-     -[bcrypt](https://www.npmjs.com/package/bcrypt)
+   - [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+   - [nodemon](https://www.npmjs.com/package//nodemon)
+   - [express](https://www.npmjs.com/package/express)
+   - [mongoose](https://www.npmjs.com/package/mongoose)
+   - [jwt](https://www.npmjs.com/package/jwt)
+   - [bcrypt](https://www.npmjs.com/package/bcrypt)
    - [MongoDB](https://www.mongodb.com/docs/manual/installation) installed and running
 
 ## Installation
@@ -30,29 +30,32 @@
       
 ## Usage
 
-    - Start the server:
-      (npm start)
-    2.Access the API at [(http://localhost:5001)].
+    Start the server:(npm start)
+    Access the API at (http://localhost:5001)
 
 ## API Endpoints
   ### User
-Register User:
-Endpoint: POST /api/register
-Body: { "username": "example", "password": "password" }
-Login User:
-**Endpoint:** POST /api/login
-**Create Task:**
-**Endpoint:** POST /api/tasks
--**Get All Tasks:**
+        -**Register User:**
+        -**Endpoint**: POST /api/register
+        
+          -**Login User:**
+          -**Endpoint:** POST /api/login
+ ### User
+-**Create Task:**
+-**Endpoint:** POST /api/tasks
 
-**Endpoint**: GET /api/tasks
+-**Get All Tasks:**
+-**Endpoint**: GET /api/tasks
+
 -**Get Task by ID:**
-**Endpoint**: GET /api/tasks/:taskId
+-**Endpoint**: GET /api/tasks/:taskId
+
 -**Update Task:**
-**Endpoint**: PUT /api/tasks/:taskId
+-**Endpoint**: PUT /api/tasks/:taskId
 
 -**Delete Task:**
-**Endpoint**: DELETE /api/tasks/:taskId
+-**Endpoint**: DELETE /api/tasks/:taskId
+
 ## Authentication
 The API uses JSON Web Tokens (JWT) for user authentication. Upon successful login, the server issues a token that should be included in the headers of subsequent requests:
 ** Headers: { "Authorization": "Bearer YOUR_TOKEN" }**
