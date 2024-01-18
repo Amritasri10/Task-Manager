@@ -12,7 +12,7 @@ This repository contains a TODO App API built using Node.js, Express, and MongoD
    - **Delete Task:** Remove tasks from the list.
    - **User Authentication:** Secure user-specific data and actions.
 
-## Prerequisites
+## Installation
 
    - [Node.js](https://nodejs.org/en)
    - [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
@@ -22,11 +22,6 @@ This repository contains a TODO App API built using Node.js, Express, and MongoD
    - [jwt](https://www.npmjs.com/package/jwt)
    - [bcrypt](https://www.npmjs.com/package/bcrypt)
    - [MongoDB](https://www.mongodb.com/docs/manual/installation) installed and running
-
-## Installation
-
-      Clone the repository:
-      git clone https://github.com/amysri77/TODO_APP.git
       
 ## Usage
 
