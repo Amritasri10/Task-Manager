@@ -31,26 +31,26 @@ This repository contains a TODO App API built using Node.js, Express, and MongoD
 ## API Endpoints
   ### User
    - **Register User:**
-   - **Endpoint**: POST /api/users/register
+       **Endpoint**: POST /api/users/register
      
    - **Login User:**
-   - **Endpoint:** POST /api/users/login
+        **Endpoint:** POST /api/users/login
    
  ### User
   -  **Create Task:**
-  -  **Endpoint:** POST /api/tasks
+       **Endpoint:** POST /api/tasks
     
   -  **Get All Tasks:**
-  -  **Endpoint**: GET /api/tasks
+        **Endpoint**: GET /api/tasks
     
   -   **Get Task by ID:**
-  -   **Endpoint**: GET /api/tasks/:id
+       **Endpoint**: GET /api/tasks/:id
     
   -   **Update Task:**
-  -   **Endpoint**: PUT /api/tasks/:id
+         **Endpoint**: PUT /api/tasks/:id
     
   -   **Delete Task:**
-  -   **Endpoint**: DELETE /api/tasks/:id
+        **Endpoint**: DELETE /api/tasks/:id
 
 ## Authentication
 The API uses JSON Web Tokens (JWT) for user authentication. Upon successful login, the server issues a token that should be included in the headers of subsequent requests:
