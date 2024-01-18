@@ -15,13 +15,13 @@
 ## Prerequisites
 
    - [Node.js](https://nodejs.org/en)
-   - [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+    . [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
      -[nodemon](https://www.npmjs.com/package//nodemon)
      -[express](https://www.npmjs.com/package/express)
      -[mongoose](https://www.npmjs.com/package/mongoose)
      -[jwt](https://www.npmjs.com/package/jwt)
      -[bcrypt](https://www.npmjs.com/package/bcrypt)
-   - [MongoDB](https://www.mongodb.com/docs/manual/installation)installed and running
+   - [MongoDB](https://www.mongodb.com/docs/manual/installation) installed and running
 
 ## Installation
 
@@ -30,9 +30,9 @@
       
 ## Usage
 
-    1. Start the server:
+    - Start the server:
       (npm start)
-    2.Access the API at (http://localhost:5001).
+    2.Access the API at [(http://localhost:5001)].
 
 ## API Endpoints
   ### User
