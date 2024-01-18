@@ -36,7 +36,7 @@
 ## API Endpoints
   ### User
  - **Register User:**
- - **Endpoint**: POST /api/register
+   . **Endpoint**: POST /api/register
  - **Login User:**
  - **Endpoint:** POST /api/login
    
