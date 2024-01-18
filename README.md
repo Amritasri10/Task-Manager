@@ -35,11 +35,11 @@
 
 ## API Endpoints
   ### User
-        -**Register User:**
-        -**Endpoint**: POST /api/register
-        
-          -**Login User:**
-          -**Endpoint:** POST /api/login
+ - **Register User:**
+ - **Endpoint**: POST /api/register
+ - **Login User:**
+ - **Endpoint:** POST /api/login
+   
  ### User
 -**Create Task:**
 -**Endpoint:** POST /api/tasks
