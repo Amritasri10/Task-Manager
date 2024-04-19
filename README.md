@@ -64,4 +64,4 @@ Contributions are welcome! If you would like to make changes to this project, pl
 - Submit a pull request with a clear title and description
 
 ## License
-This project is licensed under the MIT License. This is provides detailed instructions on how to install, configure, and use the TODO App API, with a focus on user        authentication using JSON Web Tokens (JWT). 
+This project is licensed under the MIT License. This is provides detailed instructions on how to install, configure, and use the TASK-MANAGER API, with a focus on user        authentication using JSON Web Tokens (JWT). 
