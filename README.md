@@ -1,6 +1,6 @@
 # TASK-MANAGER API with Node.js, Express, and MongoDB
 
-This repository contains a TASK-MAANGER API built using Node.js, Express, and MongoDB. The API provides  involves creating a RESTful API endpoints to perform CRUD (Create,       Read, Update, Delete) operations on tasks and managing tasks and includes user authentication to secure the user-specific data.
+This repository contains a TASK-MANAGER API built using Node.js, Express, and MongoDB. The API provides  involves creating a RESTful API endpoints to perform CRUD (Create,       Read, Update, Delete) operations on tasks and managing tasks and includes user authentication to secure the user-specific data.
 
 ## Features
 
