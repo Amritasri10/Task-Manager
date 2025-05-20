@@ -28,8 +28,8 @@ Task Manager is a full-stack web application that enables users to securely mana
 
 ### Prerequisites
 
-    - [Node.js installed](https://nodejs.org/)
-    - [MongoDB Atlas account](https://www.mongodb.com/cloud/atlas)
+- [Node.js installed](https://nodejs.org/)
+- [MongoDB Atlas account](https://www.mongodb.com/cloud/atlas)
 
 
 ### Backend Setup
