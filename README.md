@@ -34,44 +34,44 @@ Task Manager is a full-stack web application that enables users to securely mana
 
 ### Backend Setup
 
-    1. Clone the repository and navigate to the backend folder:
-    
-            `git clone https://github.com/Amritasri10/registration-form.git
-             cd registration-form`
+1. Clone the repository and navigate to the backend folder:
 
-    2. Install dependencies:
-   
-        `npm install`
+  `git clone https://github.com/Amritasri10/registration-form.git
+         cd registration-form`
 
-    3. Create a .env file in the backend folder with the following environment variables:
+2. Install dependencies:
 
-      `PORT=5001
-       MONGO_URI=your_mongodb_atlas_connection_string
-       JWT_SECRET=your_jwt_secret_key`
+    `npm install`
 
-    4. Start the backend server:
+3. Create a .env file in the backend folder with the following environment variables:
 
-      `npm start`
+  `PORT=5001
+   MONGO_URI=your_mongodb_atlas_connection_string
+   JWT_SECRET=your_jwt_secret_key`
 
-    5. The API will be running at `http://localhost:5001`.
+4. Start the backend server:
+
+  `npm start`
+
+5. The API will be running at `http://localhost:5001`
 
 ### Fronted Setup
 
-       1. Navigate to the frontend directory:
-    
-            `cd ../frontend`
+ 1. Navigate to the frontend directory:
 
-      2. Install fronted dependencies:
+      `cd ../frontend`
 
-          `npm install `
+2. Install fronted dependencies:
 
-      3. Start the React development server:
+    `npm install `
 
-          `npm start`
+3. Start the React development server:
 
-      4. The frontend will be available  at
+    `npm start`
 
-          `http://localhost:3000`
+4. The frontend will be available  at
+
+    `http://localhost:3000`
 
 ---
 
