@@ -26,13 +26,13 @@ Task Manager is a full-stack web application that enables users to securely mana
 
 ## Installation & Setup
 
-### -Prerequisites:
+### Prerequisites
 
-     -[Node.js installed](https://nodejs.org/)
-     -[MongoDB Atlas account](https://www.mongodb.com/cloud/atlas)
+    - [Node.js installed](https://nodejs.org/)
+    - [MongoDB Atlas account](https://www.mongodb.com/cloud/atlas)
 
 
-### -Backend Setup
+### Backend Setup
 
     1. Clone the repository and navigate to the backend folder:
     
@@ -55,7 +55,7 @@ Task Manager is a full-stack web application that enables users to securely mana
 
     5. The API will be running at `http://localhost:5001`.
 
-### -Fronted Setup
+### Fronted Setup
 
        1. Navigate to the frontend directory:
     
@@ -77,23 +77,24 @@ Task Manager is a full-stack web application that enables users to securely mana
 
 ## API Endpoints
 
-  ### -User Authentication
+### User Authentication
 
-      -`POST /api/users/register` : Register a new user
-
-      -`POSt /api/users/login` : Login and receive JWT token
-
-  ### -Task Management (Authentication required)
+- `POST /api/users/register` – Register a new user
+   
+- `POST /api/users/login` – Login and receive JWT token
   
-      -`POST /api/tasks` : Create a new tas
 
-      -`GET /api/tasks` : Get all tasks of the logged-in user
+### Task Management (Authentication required)
 
-      -`GET /api/tasks/:id` : Get a task by its ID
-
-      -`PUT /api/tasks/:id` : Update a task by its ID
-
-      -`DELETE /api/tasks/:id` : Delete a task by its ID
+- `POST /api/tasks` – Create a new task
+  
+- `GET /api/tasks` – Get all tasks of the logged-in user
+  
+- `GET /api/tasks/:id` – Get a task by its ID
+  
+- `PUT /api/tasks/:id` – Update a task by its ID
+   
+- `DELETE /api/tasks/:id` – Delete a task by its ID
 
 ---
 
