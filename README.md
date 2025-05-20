@@ -36,24 +36,26 @@ Task Manager is a full-stack web application that enables users to securely mana
 
 1. Clone the repository and navigate to the backend folder:
 
-  `git clone https://github.com/Amritasri10/registration-form.git
+    `git clone https://github.com/Amritasri10/Task-Manager.git
          cd registration-form`
 
 2. Install dependencies:
 
-    `npm install`
+     `npm install`
 
 3. Create a .env file in the backend folder with the following environment variables:
 
-  `PORT=5001
-   MONGO_URI=your_mongodb_atlas_connection_string
-   JWT_SECRET=your_jwt_secret_key`
+    `PORT=5001`
+    `MONGO_URI=your_mongodb_atlas_connection_string`
+    `JWT_SECRET=your_jwt_secret_key`
 
 4. Start the backend server:
 
-  `npm start`
+    `npm start`
 
-5. The API will be running at `http://localhost:5001`
+5. The API will be running at
+
+     `http://localhost:5001`
 
 ### Fronted Setup
 
@@ -117,12 +119,3 @@ This project is licensed under the MIT License - feel free to use it for persona
 
 Connect with me on:
 [LinkedIn ](https://www.linkedin.com/in/amrita-srivastava10/) | [GitHub](https://github.com/Amritasri10)
-
-    
-
-
-
-
-
-
-
