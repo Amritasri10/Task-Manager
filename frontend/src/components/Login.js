@@ -14,12 +14,13 @@ function Login() {
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
+  const API = process.env.REACT_APP_API_BASE_URL;
 
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log("Login Form Data:", formData);
      // API call
-     axios.post('/api/users/login', formData)  
+     axios.post(`${API}/api/users/login`, formData)  
       .then(response => {
         console.log("Login success:", response.data);
         alert("Login successfully!");

@@ -22,12 +22,13 @@ function Register() {
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
+  const API = process.env.REACT_APP_API_BASE_URL;
 
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log("Form Data Submitted:", formData);
     // API call
-     axios.post('/api/users/register', formData)  
+     axios.post(`${API}/api/users/register`, formData)  
       .then(response => {
         console.log("Registration success:", response.data);
         alert("Registered successfully!");

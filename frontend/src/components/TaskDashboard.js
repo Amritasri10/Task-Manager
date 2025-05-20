@@ -15,19 +15,20 @@ const TaskDashboard = () => {
   });
   const [editIndex, setEditIndex] = useState(null);
   const [editData, setEditData] = useState({});
+  const API = process.env.REACT_APP_API_BASE_URL;
 
   // Load tasks from backend on component mount
   useEffect(() => {
     const fetchTasks = async () => {
       try {
-        const response = await axios.get('/api/tasks');
+        const response = await axios.get(`${API}/api/tasks`);
         setTasks(response.data);
       } catch (error) {
         console.error('Failed to fetch tasks:', error);
       }
     };
     fetchTasks();
-  }, []);
+  }, [API]);
 
   const handleChange = (e) => {
     setTaskData({ ...taskData, [e.target.name]: e.target.value });
